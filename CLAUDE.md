@@ -64,3 +64,7 @@ you do not need to explain what an ETF or a P/E ratio is.
   orchestration) rather than splitting with a Python backend, because nobody on the
   team writes Python. The architecture phase decides this, not the brief.
 - **Market data provider**, and what it costs per month.
+
+## Sesjonslogg
+
+Når en oppgave eller økt avsluttes, før sluttoppsummeringen, bruk `sesjonslogg`-skillen: dokumenter Oppgave + Plan + Resultat + åpne punkter i `.logs/<bruker>/`, og før åpne punkter i `.logs/<bruker>/issues.md`. Skillen committer loggfila lokalt; push gjør du selv. Gruppens egne regler for commit og språk gjelder foran dette.
